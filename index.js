@@ -1,5 +1,5 @@
 const user = "U-JIN";
-const myKey = "878f8e4271ac8ab32c9df3f25c0f3add";
+const myKey = "Your key";
 
 async function setRenderBackground() {
     //Binary Large OBject를 다룰 때 사용
