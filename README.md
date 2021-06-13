@@ -2,7 +2,6 @@
 #### mirroring chrome momentum
 
 ### [PROJECT3 배포파일](https://kimujin3359.github.io/Web_Project-3-/)
-- API key 문제로 날씨 관련 정보를 받아올 수 없음
 
 ![캡처_1_](https://user-images.githubusercontent.com/50474972/111037510-b64e1300-8467-11eb-8c02-709531192bb3.JPG)
 ![캡처2](https://user-images.githubusercontent.com/50474972/111037920-a20b1580-8469-11eb-88e7-9cfcb1dcabd5.JPG)
