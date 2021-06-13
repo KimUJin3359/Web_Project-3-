@@ -97,11 +97,11 @@ function getPosition(options) {
 async function getWeather(lat, lon) {
     //위도, 경도가 있는 경우
     if (lat && lon) {
-        const data = await axios.get(`http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${myKey}`);
+        const data = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${myKey}`);
         return (data);
     }
     //위도, 경도가 없는 경우
-    const data = await axios.get(`http://api.openweathermap.org/data/2.5/forecast?q=Seoul&appid=${myKey}`);
+    const data = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?q=Seoul&appid=${myKey}`);
     return (data);
 };
 
