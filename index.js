@@ -108,7 +108,7 @@ async function getWeather(lat, lon) {
 function matchIcon(weatherData) {
     if (weatherData === "Clear")    return './images/039-sun.png';
     if (weatherData === "Clouds")    return './images/001-cloud.png';
-    if (weatherData === "Rainy")    return './images/003-rainy.png';
+    if (weatherData === "Rain")    return './images/003-rainy.png';
     if (weatherData === "Snow")    return './images/006-snowy.png';
     if (weatherData === "Thunderstorm")    return './images/008-storm.png';
     if (weatherData === "Drizzle")    return './images/031-snowflake.png';
